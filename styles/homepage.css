@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+}
+#site-logo {
+    margin-left: 3rem;
+}
+
+.container-global {
+    margin: 0;
+    background-color: #101f1a;
+}
+
+.container-fala {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+.content-flex-container {
+    height: 700px;
+    display: flex;
+    padding: 20px;
+    margin: auto;
+}
+
+.content {
+    max-width: 1200px;
+    background-color: pink;
+    margin-right: 1rem;
+    margin-left: auto;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav > a {
+    display: flex;
+}
