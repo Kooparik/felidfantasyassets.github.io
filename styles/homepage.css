@@ -1,8 +1,16 @@
 * {
     margin: 0;
+    padding: 0;
+}
+
+body {
+    --bg-top: url("https://kooparik.github.io/felidfantasy/assets/backgrounds/fundo_verde_topo.png");
+    --bg-quote: url("https://kooparik.github.io/felidfantasy/assets/backgrounds/fundo_verde_falas.png"); 
+    --bg-content: url("https://kooparik.github.io/felidfantasy/assets/backgrounds/fundo_verde_conteudo.png") 
 }
 #site-logo {
-    margin-left: 3rem;
+    margin-top: 1em;
+    margin-left: 4em;
 }
 
 .container-global {
@@ -10,18 +18,28 @@
     background-color: #101f1a;
 }
 
+.container-topo {
+    height: 3.2vh;
+    background: var(--bg-top);
+}
 .container-fala {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
     color: white;
-    background-color: black;
+    background: var(--bg-quote);
 }
 .content-flex-container {
     height: 700px;
     display: flex;
     padding: 20px;
     margin: auto;
+    background: var(--bg-content);
+}
+
+.cover-bg-img {
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content {
@@ -29,6 +47,7 @@
     background-color: pink;
     margin-right: 1rem;
     margin-left: auto;
+    padding: 2em;
 }
 
 aside {
